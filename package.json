@@ -16,6 +16,15 @@
     "format": "npx prettier './' --write",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryohidaka/wxt-react-template.git"
+  },
+  "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/ryohidaka/wxt-react-template/issues"
+  },
+  "homepage": "https://github.com/ryohidaka/wxt-react-template#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
