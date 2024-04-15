@@ -1,6 +1,6 @@
 {
-  "name": "wxt-starter",
-  "description": "manifest.json description",
+  "name": "wxt-react-template",
+  "description": "This template should help get you started developing with React in WXT.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
