@@ -13,7 +13,8 @@
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",
-    "format": "npx prettier './' --write"
+    "format": "npx prettier './' --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +24,7 @@
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3",
     "wxt": "^0.17.0"
