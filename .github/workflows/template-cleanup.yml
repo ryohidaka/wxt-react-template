@@ -20,11 +20,18 @@ jobs:
       - name: Fetch Sources
         uses: actions/checkout@v4
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       # Cleanup project
       - name: Cleanup
-        uses: ryohidaka/nodejs-cleanup@v1.1.3
+        uses: ryohidaka/nodejs-cleanup@v1.5.0
         with:
           description: ""
           excluded: "CHANGELOG.md, .github/workflows/template-cleanup.yml"
           template-dir: ".github/template"
           remove-template-dir: true
+          pre-commit-script: |
+            pnpm i
+            pnpm format
+            pnpm build
