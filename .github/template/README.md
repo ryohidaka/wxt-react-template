@@ -1,6 +1,6 @@
 # %NAME%
 
-[![release](https://badgen.net/github/release/%AUTHOR%/%NAME%)](https://github.com/%AUTHOR%/%NAME%/releases/)
+[![GitHub Release](https://img.shields.io/github/v/release/%AUTHOR%/%NAME%?logo=chromewebstore)](https://github.com/%AUTHOR%/%NAME%/releases/)
 ![build](https://github.com/%AUTHOR%/%NAME%/workflows/Build/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 

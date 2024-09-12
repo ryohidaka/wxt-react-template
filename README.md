@@ -1,6 +1,6 @@
 # wxt-react-template
 
-[![release](https://badgen.net/github/release/ryohidaka/wxt-react-template)](https://github.com/ryohidaka/wxt-react-template/releases/)
+![GitHub Release](https://img.shields.io/github/v/release/ryohidaka/wxt-react-template?logo=chromewebstore)
 ![build](https://github.com/ryohidaka/wxt-react-template/workflows/Build/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
