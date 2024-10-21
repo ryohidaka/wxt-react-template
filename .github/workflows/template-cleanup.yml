@@ -25,7 +25,7 @@ jobs:
 
       # Cleanup project
       - name: Cleanup
-        uses: ryohidaka/nodejs-cleanup@v1.5.2
+        uses: ryohidaka/nodejs-cleanup@v1.5.3
         with:
           description: ""
           excluded: "CHANGELOG.md, .github/workflows/template-cleanup.yml"
