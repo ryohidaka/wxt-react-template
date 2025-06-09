@@ -30,12 +30,12 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/react": "^19.1.6",
-    "@types/react-dom": "^19.1.5",
-    "@vitejs/plugin-react": "^4.5.0",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.1",
     "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
-    "wxt": "^0.20.6"
+    "wxt": "^0.20.7"
   }
 }
